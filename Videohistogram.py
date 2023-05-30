@@ -6,7 +6,7 @@ def rel_change(a, b):
     """
     calculate the difference between two frames.
     :param a: first frame
-    :param a: second frame
+    :param b: second frame
     :return: the difference between two frames
     """
     x = (b - a) / max(a, b) if max(a, b) != 0 else 0
